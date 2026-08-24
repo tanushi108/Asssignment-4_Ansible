@@ -16,6 +16,26 @@ The main goal of this role is to automate common system-level configuration task
 
 ---
 
+
+## Create role and connectivity 
+
+```
+ansible-galaxy init system-manager
+```
+
+```
+ansible app -i inventory -m ping
+```
+
+```
+ansible-playbook -i inventory assignment-4.yml --syntax-check
+```
+<img width="1001" height="96" alt="image" src="https://github.com/user-attachments/assets/6a6f857b-c31b-4153-bda2-a27376e06b18" />
+
+This is `assignment-4.yml`:
+
+<img width="595" height="201" alt="image" src="https://github.com/user-attachments/assets/98f4c158-2751-46a3-a9fb-4e1052b9cad8" style="border: 2px solid black;" />
+
 ## Steps 
 
 The `system-manager` role provides the following features:
@@ -35,7 +55,7 @@ TASK [system-manager : Install required software]
 TASK [system-manager : Display package install]
 ```
 
-<img width="1035" height="576" alt="image" src="https://github.com/user-attachments/assets/f96cbd02-69bb-47f9-820a-b1ff6be23015" />
+<img width="1035" height="576" alt="image" src="https://github.com/user-attachments/assets/f96cbd02-69bb-47f9-820a-b1ff6be23015" style="border: 2px solid black;"/>
 
 
 ### 2. User Management
