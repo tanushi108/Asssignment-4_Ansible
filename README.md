@@ -16,7 +16,7 @@ The main goal of this role is to automate common system-level configuration task
 
 ---
 
-# Features
+## Steps 
 
 The `system-manager` role provides the following features:
 
